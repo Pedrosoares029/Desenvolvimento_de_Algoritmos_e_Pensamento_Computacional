@@ -197,7 +197,7 @@ Encerra o programa
 
 ## 🎓 Estudante
 
-**Aluno:** João Leite
+**Aluno:** Pedro Luiz
 
 ---
 
