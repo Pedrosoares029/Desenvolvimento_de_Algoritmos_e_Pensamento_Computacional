@@ -2,9 +2,9 @@
 
 # 🌡️ Conversor de Temperatura em C
 
-![C](https://img.shields.io/badge/Linguagem_C-00599C?style=for-the-badge\&logo=c\&logoColor=white)
-![GCC](https://img.shields.io/badge/Compilador_GCC-000000?style=for-the-badge\&logo=gnu\&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge\&logo=github\&logoColor=white)
+![C](https://img.shields.io/badge/Linguagem_C-00599C?style=for-the-badge&logo=c&logoColor=white)
+![GCC](https://img.shields.io/badge/Compilador_GCC-000000?style=for-the-badge&logo=gnu&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
 ![Status](https://img.shields.io/badge/Status-Conclu%C3%ADdo-44CC11?style=for-the-badge)
 
 </div>
@@ -15,29 +15,33 @@ Desenvolvimento de um **conversor de temperatura interativo em linha de comando*
 
 O projeto foi desenvolvido em linguagem C com o objetivo de aplicar conceitos fundamentais de programação, como **funções, estruturas de repetição, estruturas de seleção, variáveis e entrada/saída de dados**.
 
+<p align="center">
+  <img src="images/conversor.png" alt="Conversor de Temperatura em execução" width="700">
+</p>
+
 ---
 
 ## 🎯 Objetivos de Aprendizado
 
-* **Criação de Funções:** Organização das fórmulas de conversão em funções independentes.
-* **Controle de Fluxo:** Utilização de `while` para permitir múltiplas conversões durante a execução.
-* **Seleção Condicional:** Implementação de `switch...case` para controlar as opções do menu.
-* **Manipulação Numérica:** Uso do tipo `float` para trabalhar com valores decimais de temperatura.
-* **Entrada e Saída de Dados:** Utilização de `scanf` e `printf` para interação com o usuário.
-* **Operadores Lógicos:** Aplicação do operador `||` para controlar a repetição do programa.
+- **Criação de Funções:** Organização das fórmulas de conversão em funções independentes.
+- **Controle de Fluxo:** Utilização de `while` para permitir múltiplas conversões durante a execução.
+- **Seleção Condicional:** Implementação de `switch...case` para controlar as opções do menu.
+- **Manipulação Numérica:** Uso do tipo `float` para trabalhar com valores decimais de temperatura.
+- **Entrada e Saída de Dados:** Utilização de `scanf` e `printf` para interação com o usuário.
+- **Operadores Lógicos:** Aplicação do operador `||` para controlar a repetição do programa.
 
 ---
 
 ## 🌡️ Conversões Implementadas
 
-|   ID   | Conversão            | Fórmula                                    |
-| :----: | :------------------- | :----------------------------------------- |
-| **01** | Celsius → Fahrenheit | $F = (C \times \frac{9}{5}) + 32$          |
-| **02** | Celsius → Kelvin     | $K = C + 273.15$                           |
-| **03** | Fahrenheit → Celsius | $C = (F - 32) \times \frac{5}{9}$          |
-| **04** | Fahrenheit → Kelvin  | $K = (F - 32) \times \frac{5}{9} + 273.15$ |
-| **05** | Kelvin → Celsius     | $C = K - 273.15$                           |
-| **06** | Kelvin → Fahrenheit  | $F = (K - 273.15) \times \frac{9}{5} + 32$ |
+| ID | Conversão | Fórmula |
+| :-: | :--- | :--- |
+| **01** | Celsius → Fahrenheit | $F = (C \times \frac{9}{5}) + 32$ |
+| **02** | Celsius → Kelvin | $K = C + 273.15$ |
+| **03** | Fahrenheit → Celsius | $C = (F - 32) \times \frac{5}{9}$ |
+| **04** | Fahrenheit → Kelvin | $K = (F - 32) \times \frac{5}{9} + 273.15$ |
+| **05** | Kelvin → Celsius | $C = K - 273.15$ |
+| **06** | Kelvin → Fahrenheit | $F = (K - 273.15) \times \frac{9}{5} + 32$ |
 
 ---
 
@@ -45,11 +49,17 @@ O projeto foi desenvolvido em linguagem C com o objetivo de aplicar conceitos fu
 
 * **Linguagem C:** Linguagem utilizada para implementação do projeto.
 * **`stdio.h`:** Biblioteca utilizada para entrada e saída de dados através de `scanf` e `printf`.
-* **GCC:** Compilador utilizado para executar e testar o código.
+* **GCC:** Compilador utilizado para compilar o código em ambientes locais.
+* **OnlineGDB:** Ambiente online utilizado para executar e testar o código.
+* **Visual Studio Code:** Editor que pode ser utilizado para desenvolver e executar o projeto localmente no Windows.
 
 ---
 
 ## 💻 Arquitetura & Sintaxe Aplicada
+
+<p align="center">
+  <img src="images/codigo.png" alt="Código do Conversor de Temperatura" width="800">
+</p>
 
 ### Tipagem de Dados
 
@@ -69,109 +79,3 @@ Exemplo:
 float celsiusFahrenheit(float temperatura) {
     return (temperatura * 9.0 / 5.0) + 32.0;
 }
-```
-
-Essa organização permite que a função receba uma temperatura como parâmetro e retorne diretamente o valor convertido.
-
-### Controle de Fluxo Interativo
-
-* **`switch...case`:** Seleção da conversão de acordo com a opção escolhida pelo usuário.
-* **`while`:** Mantém o programa em execução enquanto o usuário desejar realizar novas conversões.
-* **`if` lógico:** A condição `continuar == 'S' || continuar == 's'` permite aceitar tanto letras maiúsculas quanto minúsculas.
-* **`break`:** Encerra cada `case` após a realização da conversão.
-
----
-
-## 🔄 Fluxo de Execução
-
-```text
-              [Início]
-                  │
-            ( Exibe Menu )
-                  │
-        [Seleciona Conversão]
-                  │
-        [Informa Temperatura]
-                  │
-          ( Executa Função )
-                  │
-          [Exibe Resultado]
-                  │
-       ¿Fazer outra conversão?
-           ├── [S] ──► ( Retorna ao Menu )
-           │
-           └── [N] ──► [ Encerrar Programa ]
-```
-
----
-
-## ▶️ Como Executar
-
-### Compilação com GCC
-
-No terminal, navegue até a pasta onde o arquivo está localizado e execute:
-
-```bash
-gcc conversor.c -o conversor
-```
-
-Depois, execute o programa:
-
-**Windows:**
-
-```bash
-conversor.exe
-```
-
-**Linux/macOS:**
-
-```bash
-./conversor
-```
-
----
-
-## 📋 Exemplo de Execução
-
-```text
-===== CONVERSOR DE TEMPERATURA =====
-1 - Celsius -> Fahrenheit
-2 - Celsius -> Kelvin
-3 - Fahrenheit -> Celsius
-4 - Fahrenheit -> Kelvin
-5 - Kelvin -> Celsius
-6 - Kelvin -> Fahrenheit
-
-Escolha uma opcao: 1
-
-Digite a temperatura em Celsius: 25
-
-Resultado: 77.00 Fahrenheit
-
-Deseja fazer outra conversao? (S/N): S
-```
-
----
-
-## 📚 Conceitos Praticados
-
-Este projeto foi desenvolvido para praticar conceitos fundamentais da linguagem C:
-
-* Variáveis e tipos de dados
-* Funções e parâmetros
-* Valores de retorno
-* `switch...case`
-* Estrutura `while`
-* Operadores lógicos
-* Entrada de dados com `scanf`
-* Saída de dados com `printf`
-* Formatação de números com `%.2f`
-* Organização e modularização de código
-
----
-
-<div align="center">
-
-**Projeto desenvolvido para fins de estudo em programação C.**
-
-</div>
