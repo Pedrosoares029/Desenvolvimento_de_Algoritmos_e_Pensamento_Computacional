@@ -9,7 +9,7 @@
 
 </div>
 
-## 📌 Visão Geral
+##  Visão Geral
 
 Desenvolvimento de um **conversor de temperatura interativo em linha de comando**, capaz de realizar conversões entre as escalas **Celsius, Fahrenheit e Kelvin**.
 
@@ -17,7 +17,7 @@ O projeto foi desenvolvido em linguagem C com o objetivo de aplicar conceitos fu
 
 
 ---
-## 🚀 Como Compilar e Executar o Programa
+## Como Compilar e Executar o Programa
 
 Se você nunca mexeu com código C antes, não se preocupe! Para rodar este programa, o computador precisa traduzir o código-fonte (que nós lemos) em um arquivo executável (que o computador entende). Esse processo se chama **compilação**.
 
@@ -84,7 +84,7 @@ Por padrão, o *Code Runner* apenas mostra resultados, mas este programa precisa
 
 ---
 
-## 🌡️ Conversões Implementadas
+##  Conversões Implementadas
 
 | ID | Conversão | Fórmula |
 | :-: | :--- | :--- |
