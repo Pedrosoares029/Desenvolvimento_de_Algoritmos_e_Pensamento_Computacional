@@ -15,9 +15,6 @@ Desenvolvimento de um **conversor de temperatura interativo em linha de comando*
 
 O projeto foi desenvolvido em linguagem C com o objetivo de aplicar conceitos fundamentais de programação, como **funções, estruturas de repetição, estruturas de seleção, variáveis e entrada/saída de dados**.
 
-<p align="center">
-  <img src="images/conversor.png" alt="Conversor de Temperatura em execução" width="700">
-</p>
 
 ---
 ## 🚀 Como Compilar e Executar o Programa
