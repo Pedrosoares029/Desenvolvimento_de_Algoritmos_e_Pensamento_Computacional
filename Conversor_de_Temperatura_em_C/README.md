@@ -109,9 +109,6 @@ Por padrão, o *Code Runner* apenas mostra resultados, mas este programa precisa
 
 ## Arquitetura & Sintaxe Aplicada
 
-<p align="center">
-  <img src="images/codigo.png" alt="Código do Conversor de Temperatura" width="800">
-</p>
 
 ### Tipagem de Dados
 
@@ -135,11 +132,16 @@ float celsiusFahrenheit(float temperatura) {
 
 ### Explicando a função
   -Essa função é para a conversão de celcius para fahrenheit, então ela recebe uma variavel, que no caso é float, porque podemos usar numeros racionais nesse codigo. 
-  -Logo depois um nome facil de identificar o nome da função. celsiusFahrenheit 
+  
+  -Logo depois um nome facil de identificar o nome da função. celsiusFahrenheit.
+  
   -Dentro dos parênteses está a declaração do parâmetro (float temperatura), que funciona como uma variável local pronta para receber o valor numérico transmitido para a função quando ela for executada.
+  
   -As chaves { } delimitam o corpo da função, indicando onde o bloco de código começa e termina.
-  -o comando return indica a instrução de retorno, enviando a expressão calculada de volta para o ponto onde a função foi chamada
+  
+  -o comando return indica a instrução de retorno, enviando a expressão calculada de volta para o ponto onde a função foi chamada.
+  
   -enquanto o ponto e vírgula (;) ao final da linha encerra essa instrução sintática.
 
 ## Estudante
-  -Trabalho feito por: Pedro Luiz Farias Soares
+  -Pedro Luiz Farias Soares
