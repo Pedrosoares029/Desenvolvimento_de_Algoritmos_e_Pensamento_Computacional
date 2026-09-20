@@ -12,13 +12,13 @@
 
 ## Identificação
 
-| Informação     | Detalhes                                   |
-| **Aluno**      | Pedro Luiz                                 |
-| **Disciplina** | Algoritmo e Pensamento Computacional       |
-| **Professora** | Profa. Karla Sartin                        |
-| **Projeto**    | Desafio: Monitoramento de Temperatura em C |
+| Informação | Detalhes                                    |
+| :---------:| :----------------------------------------   |
+| **Aluno**  | Pedro Luiz                                  |
+| **Disciplina** | Algoritmo e Pensamento Computacional    |
+| **Professora** | Profa. Karla Sartin                     |
+| **Projeto** | Desafio: Monitoramento de Temperatura em C |
 
----
 
 ## 📌 Visão Geral
 
