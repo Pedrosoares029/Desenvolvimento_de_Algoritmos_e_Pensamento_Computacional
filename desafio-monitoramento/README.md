@@ -22,15 +22,15 @@
 
 ## 📌 Visão Geral
 
-Desenvolvimento de um **programa de monitoramento de temperatura em linguagem C**, desenvolvido com fins de estudo e prática dos conceitos fundamentais de programação.
+O programa funciona como um monitor de temperatura. Primeiro, o usuário define um limite de temperatura que será utilizado durante todo o monitoramento.
 
-O sistema recebe continuamente valores de temperatura informados pelo usuário e verifica se o valor ultrapassa o **limite de 80 °C**.
+Depois disso, o usuário pode informar várias temperaturas. A cada temperatura recebida, o programa verifica se ela está acima do limite definido. Caso esteja, um alerta é gerado e essa temperatura é armazenada.
 
-Sempre que a temperatura estiver acima do limite estabelecido, o programa emite um **alerta** e contabiliza a ocorrência. Ao atingir **3 alertas**, o monitoramento é encerrado automaticamente.
+Enquanto o programa recebe as temperaturas, ele também calcula a média, identifica a maior e a menor temperatura e conta quantas temperaturas ficaram acima do limite.
 
-O projeto tem como objetivo aplicar conceitos de **laços de repetição, estruturas condicionais, variáveis e entrada e saída de dados**.
+O monitoramento continua até que sejam identificadas 3 temperaturas acima do limite definido pelo usuário. Quando isso acontece, o programa encerra o monitoramento e apresenta um relatório final com os principais resultados, incluindo a média, a maior temperatura, a menor temperatura, a quantidade de alertas e as três temperaturas que causaram os alertas.
 
----
+Além disso, o programa possui um tratamento básico para entradas inválidas, evitando que valores que não sejam números sejam aceitos como temperaturas.
 
 ## 🎯 Objetivos de Aprendizado
 
